@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutomateClub – Data & Automation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff;
+            color: #111;
+        }
+        header {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-top: 0;
+            color: #444;
+        }
+        .section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .cta {
+            margin-top: 24px;
+        }
+        .cta a {
+            text-decoration: none;
+            padding: 12px 20px;
+            background: #0B5FFF;
+            color: white;
+            border-radius: 6px;
+            font-size: 1rem;
+            display: inline-block;
+        }
+        .footer {
+            text-align: center;
+            padding: 40px 10px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Data & Automation für Unternehmen</h1>
+    <h2>Effiziente Workflows, datenbasierte Entscheidungen und Reporting.</h2>
+</header>
+
+<section class="section">
+    <p>
+        Ich unterstütze Unternehmen dabei, Geschäftsprozesse zu automatisieren,
+        Daten für bessere Entscheidungen aufzubereiten und individuelle Dashboards
+        bereitzustellen – effizient, modern und skalierbar.
+    </p>
+
+    <ul style="list-style:none; padding:0; margin-top:28px; line-height:1.8;">
+        <li>✓ Data Analysis & Reporting</li>
+        <li>✓ Data Engineering & Pipelines</li>
+        <li>✓ Workflow Automation (n8n)</li>
+        <li>✓ Individuelle Dashboards</li>
+    </ul>
+
+    <div class="cta">
+        <a href="mailto:hello@automateclub.de">Kontakt aufnehmen</a>
+    </div>
+</section>
+
+<div class="footer">
+    © 2025 AutomateClub — Data & Automation
+</div>
+
+</body>
+</html>

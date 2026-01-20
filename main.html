@@ -1,86 +1,205 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutomateClub – Data & Automation</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #ffffff;
-            color: #111;
-        }
-        header {
-            padding: 40px 20px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.2rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        h2 {
-            font-size: 1.4rem;
-            font-weight: 400;
-            margin-top: 0;
-            color: #444;
-        }
-        .section {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            text-align: center;
-        }
-        .cta {
-            margin-top: 24px;
-        }
-        .cta a {
-            text-decoration: none;
-            padding: 12px 20px;
-            background: #0B5FFF;
-            color: white;
-            border-radius: 6px;
-            font-size: 1rem;
-            display: inline-block;
-        }
-        .footer {
-            text-align: center;
-            padding: 40px 10px;
-            font-size: 0.9rem;
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutomateClub – Datenintegration & Automatisierung</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --purple-deep: #2b2042;
+      --purple-deep-strong: #1f1633;
+      --gray-light: #d6d6d6;
+      --accent-teal: #3ddad8;
+      --cta-white: #ffffff;
+      --box-width: 900px;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--purple-deep);
+      color: var(--gray-light);
+      line-height: 1.5;
+    }
+
+    header {
+      width: 100%;
+      padding: 20px 0;
+      display: flex;
+      justify-content: flex-end;
+      max-width: var(--box-width);
+      margin: 0 auto;
+    }
+
+    header a {
+      color: var(--gray-light);
+      text-decoration: none;
+      font-size: 14px;
+      margin-left: 8px;
+    }
+
+    main {
+      max-width: var(--box-width);
+      margin: 0 auto;
+      padding: 60px 20px 100px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 34px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 500;
+      margin-top: 60px;
+      margin-bottom: 12px;
+      text-align: left;
+    }
+
+    p, ul {
+      font-size: 16px;
+      font-weight: 300;
+      text-align: left;
+      margin: 0 auto 10px;
+      max-width: 750px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "• ";
+      color: var(--accent-teal);
+    }
+
+    .cta-primary {
+      display: inline-block;
+      background: var(--cta-white);
+      color: var(--purple-deep-strong);
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 28px;
+    }
+
+    .cta-secondary {
+      display: inline-block;
+      background: var(--purple-deep-strong);
+      border: 1px solid var(--gray-light);
+      color: var(--gray-light);
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 400;
+      margin-top: 40px;
+    }
+
+    footer {
+      width: 100%;
+      background: var(--purple-deep-strong);
+      padding: 40px 20px;
+      margin-top: 80px;
+    }
+
+    footer .content {
+      max-width: var(--box-width);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 14px;
+    }
+
+    footer strong {
+      font-weight: 500;
+    }
+
+    footer small {
+      margin-top: 10px;
+      opacity: 0.7;
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Data & Automation für Unternehmen</h1>
-    <h2>Effiziente Workflows, datenbasierte Entscheidungen und Reporting.</h2>
-</header>
+  <!-- Language Switcher -->
+  <header>
+    <a href="/">DE</a> |
+    <a href="/en/">EN</a>
+  </header>
 
-<section class="section">
-    <p>
-        Ich unterstütze Unternehmen dabei, Geschäftsprozesse zu automatisieren,
-        Daten für bessere Entscheidungen aufzubereiten und individuelle Dashboards
-        bereitzustellen – effizient, modern und skalierbar.
+  <main>
+    <!-- HERO -->
+    <h1>Datenintegration, Automatisierung & Analyse für Unternehmen</h1>
+    <p style="text-align:center; max-width:700px;">
+      Wir entwickeln effiziente Datenprozesse und ermöglichen datenbasierte Entscheidungen.
     </p>
+    <a class="cta-primary" href="mailto:info@automateclub.de">Beratung vereinbaren</a>
 
-    <ul style="list-style:none; padding:0; margin-top:28px; line-height:1.8;">
-        <li>✓ Data Analysis & Reporting</li>
-        <li>✓ Data Engineering & Pipelines</li>
-        <li>✓ Workflow Automation (n8n)</li>
-        <li>✓ Individuelle Dashboards</li>
+    <!-- LEISTUNGEN -->
+    <h2>Leistungen</h2>
+    <ul>
+      <li>Data Analysis</li>
+      <li>Data Engineering & Pipelines</li>
+      <li>Workflow Automation (n8n)</li>
+      <li>Individuelle Dashboards & Reporting</li>
     </ul>
 
-    <div class="cta">
-        <a href="mailto:hello@automateclub.de">Kontakt aufnehmen</a>
-    </div>
-</section>
+    <!-- ZIELGRUPPE -->
+    <h2>Für wen wir arbeiten</h2>
+    <ul>
+      <li>Startups</li>
+      <li>KMU</li>
+      <li>Mittelstand</li>
+    </ul>
 
-<div class="footer">
-    © 2025 AutomateClub — Data & Automation
-</div>
+    <!-- ABOUT -->
+    <h2>Über</h2>
+    <p>
+      Wir arbeiten als unabhängige Berater und Freelancer im Bereich Datenintegration und Prozessautomatisierung.
+      Unser Fokus liegt auf effizienten Datenprozessen, Automatisierung mit n8n und individuellem Reporting für Unternehmen.
+    </p>
+
+    <!-- TECH STACK -->
+    <h2>Tech Stack</h2>
+    <ul>
+      <li>n8n</li>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>Data Pipelines</li>
+      <li>Dashboards & Reporting</li>
+    </ul>
+
+    <!-- FINAL CTA -->
+    <a class="cta-secondary" href="mailto:info@automateclub.de">Unverbindliche Anfrage</a>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="content">
+      <strong>Kontakt</strong>
+      <span>info@automateclub.de</span>
+
+      <strong>Rechtliches</strong>
+      <span>Impressum</span>
+      <span>Datenschutz</span>
+
+      <small>© 2025 AutomateClub — Alle Rechte vorbehalten</small>
+    </div>
+  </footer>
 
 </body>
 </html>
